@@ -19,13 +19,17 @@ from eventmanager import Evt
 
 def _on_race_start(_args: dict, rhapi: Any) -> None:
     """Announce heat number via the UI TTS when a race starts."""
+    event_name = rhapi.db.option("eventName")
     heat_id = getattr(rhapi.race, "heat", None)
+
     if isinstance(heat_id, int) and heat_id > 0:
         time.sleep(1)
         current_round = rhapi.db.heat_max_round(heat_id)
-        rhapi.ui.message_speak(f"Round {current_round + 1} started")
-    else:
-        rhapi.ui.message_speak("Race started")
+
+        if event_name:
+            rhapi.ui.message_speak(f"{event_name}, round {current_round + 1} started")
+        else:
+            rhapi.ui.message_speak(f"Round {current_round + 1} started")
 
 
 def initialize(rhapi: Any) -> None:
