@@ -1,10 +1,10 @@
 {
-  "domain": "rh_template",
-  "name": "Plugin Template",
-  "author": "RotorHazard",
+  "domain": "heat_number_announcer",
+  "name": "Heat Number Announcer",
+  "author": "marijnkoesen",
   "license": "MIT",
-  "description": "A template plugin for creating custom plugins for the RotorHazard project.",
-  "documentation_uri": "https://github.com/RotorHazard/plugin-template/",
+  "description": "Announces \"Heat <number> started\" via TTS when a race starts.",
+  "documentation_uri": "https://github.com/marijnkoesen/RH-Heat-Number-Announcer",
   "required_rhapi_version": "1.0",
   "version": "1.0.0"
 }
