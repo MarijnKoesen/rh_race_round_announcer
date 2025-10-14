@@ -3,7 +3,7 @@
 This plugin listens for the race start event and triggers a UI message to speak:
 "Heat <number> started".
 
-It uses only the documented RHAPI calls from the local docs (.ai/docs.md):
+It uses only the documented RHAPI calls:
 - Event binding: rhapi.events.on(Evt.<...>, handler) with Evt imported from eventmanager
 - UI speech: rhapi.ui.message_speak(message)
 - Current heat id: rhapi.race.heat (int or None)
