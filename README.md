@@ -20,5 +20,5 @@ See: [DEVELOPMENT.md](DEVELOPMENT.md)
 [Python]: https://www.python.org/
 [pre-commit]: https://pre-commit.com/
 
-[rhfest-shield]: https://github.com/marijnkoesen/rh_race_round_number_announcer/actions/workflows/rhfest.yaml/badge.svg
-[rhfest-url]: https://github.com/marijnkoesen/rh_race_round_number_announcer/actions/workflows/rhfest.yaml
+[rhfest-shield]: https://github.com/marijnkoesen/rh_race_round_announcer/actions/workflows/rhfest.yaml/badge.svg
+[rhfest-url]: https://github.com/marijnkoesen/rh_race_round_announcer/actions/workflows/rhfest.yaml
