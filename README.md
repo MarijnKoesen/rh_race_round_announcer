@@ -7,7 +7,7 @@ The plugin announces the `Event` and `Round Number` at the start of each race, g
 
 > e.g.
 >
-> 📢 Event RaceGOW #5, Round 22 started
+> 📢 Event RaceGOW #5 Week 1, Round 22 started
 
 This way you are able to easily find your best rounds and laps.
 
