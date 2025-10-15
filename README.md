@@ -3,13 +3,9 @@
 
 # Heat Number Announcer (RotorHazard Plugin)
 
-This plugin announces "Heat <number> started" via the UI message_speak mechanism when a race starts.
+The plugin announces “Event <name>, Round <number> started” at the start of each race, giving your DVR recording an audible cue for easy identification.
 
-It uses RHAPI:
-- Event binding: rhapi.events.on(Evt.RACE_START, handler) with Evt imported from eventmanager
-- Speech: rhapi.ui.message_speak(message)
-- Heat number: rhapi.race.heat (int or None)
-
+This way are able to easily find your best rounds and laps.
 
 # Development
 
