@@ -1,0 +1,10 @@
+{
+  "domain": "mk_plugins",
+  "name": "Race Round Number Announcer",
+  "author": "marijnkoesen",
+  "license": "MIT",
+  "description": "Announces \"Event <name> round <number> started\" via TTS when a race starts.",
+  "documentation_uri": "https://github.com/marijnkoesen/RH-Race-Round-Number-Announcer",
+  "required_rhapi_version": "1.0",
+  "version": "1.0.0"
+}
